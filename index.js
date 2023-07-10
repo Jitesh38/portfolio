@@ -11,35 +11,27 @@ function change(checkboxElem) {
     NavBar.classList.replace("bg-body-tertiary", "bg-dark");
     NavBar.classList.add("navbar-dark");
     NavBar.classList.add("text-white");
-
     SliDer.classList.replace("carousel-dark", "bg-dark");
     body.classList.add("bg-dark");
     body.classList.add("text-white");
     skill.classList.add("text-white");
     alertTrigger.classList.add("btn-light");
-
     NavBar.classList.replace("bg-body-tertiary", "bg-dark");
     NavBar.classList.add("navbar-dark");
     NavBar.classList.add("text-white");
     contact.classList.add("bg-secondary");
-
     contact.classList.add("text-white");
     white.classList.add("text-white");
   } else {
     NavBar.classList.replace("bg-dark", "bg-body-tertiary");
     NavBar.classList.remove("navbar-dark");
     NavBar.classList.remove("text-white");
-
-
     NavBar.classList.replace("bg-dark", "bg-body-tertiary");
     NavBar.classList.remove("navbar-dark");
     NavBar.classList.remove("text-white");
-
     contact.classList.remove("bg-secondary");
     contact.classList.remove("text-white");
     white.classList.remove("text-white");
-
-
     SliDer.classList.replace("bg-dark", "carousel-dark");
     body.classList.remove("bg-dark");
     body.classList.remove("text-white");
@@ -66,8 +58,6 @@ if (alertTrigger) {
     appendAlert(`Error! Couldn't found CV `, "danger");
   });
 }
-
-
 const toastTrigger = document.getElementById('liveToastBtn')
 const toastLiveExample = document.getElementById('liveToast')
 
@@ -76,11 +66,4 @@ if (toastTrigger) {
   toastTrigger.addEventListener('click', () => {
     toastBootstrap.show()
   })
-}
-
-function yellow(x) {
-  let stars=document.querySelectorAll(".star");
-  stars[x].classList.add("text-warning")
-
-  
 }
