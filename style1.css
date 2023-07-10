@@ -1,0 +1,29 @@
+.carousel-item {
+    background-position: center;
+    align-items: center;
+    
+}
+.bi:hover{
+    cursor: pointer;
+}
+#text{
+    font: optional;
+    
+    font-size: 22px;
+    font-weight: 300;
+}
+.oneRow{
+    display: block !important;
+}
+.headings{
+    font-size: 15px;
+    font-weight: 100;
+}
+.answer{
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#star{
+    display: inline-block !important;
+}
