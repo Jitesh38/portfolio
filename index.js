@@ -53,11 +53,6 @@ const appendAlert = (message, type) => {
   alertPlaceholder.append(wrapper);
 };
 
-if (alertTrigger) {
-  alertTrigger.addEventListener("click", () => {
-    appendAlert(`Error! Couldn't found CV `, "danger");
-  });
-}
 const toastTrigger = document.getElementById('liveToastBtn')
 const toastLiveExample = document.getElementById('liveToast')
 
