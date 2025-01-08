@@ -1,29 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .carousel-item {
     background-position: center;
     align-items: center;
-    
+
 }
-.bi:hover{
+
+.bi:hover {
     cursor: pointer;
 }
-#text{
+
+#text {
     font: optional;
-    
+
     font-size: 22px;
     font-weight: 300;
 }
-.oneRow{
+
+.oneRow {
     display: block !important;
 }
-.headings{
+
+.headings {
     font-size: 15px;
     font-weight: 100;
 }
-.answer{
+
+.answer {
     font-weight: 400;
     font-size: 19px;
 }
 
-#star{
+#star {
     display: inline-block !important;
+}
+
+.card-border {
+    border: 1px solid white;
+}
+
+.light-white {
+    background-color: #e9e9e9;
 }
